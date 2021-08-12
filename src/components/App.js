@@ -1,11 +1,14 @@
 import React, {Component, useState} from "react";
-import "./../styles/App.css";
+import "./styles.css";
+import Getpara from './Getpara';
 
 function App() {
+  
   return (
     <div id="main">
-      // Do not alter the main div
+      <Getpara />
     </div>
+
   );
 }
 
