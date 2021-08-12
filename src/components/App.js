@@ -1,16 +1,16 @@
 import React, {Component, useState} from "react";
-import "./styles.css";
-import Getpara from './Getpara';
+import "./../styles/App.css";
+
+import Welcome from './Welcome';
 
 function App() {
   
   return (
     <div id="main">
-      <Getpara />
+      <Welcome />
     </div>
 
   );
 }
-
 
 export default App;
